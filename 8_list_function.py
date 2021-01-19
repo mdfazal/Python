@@ -1,0 +1,17 @@
+lucky_number = [42, 8, 15, 16, 23, ]
+friends = ["Kevin", "Karen", "Jim", "Jim", "Oscar", "Toby"]
+friends.pop()
+print(friends.count("Jim"))
+print(friends.index("Karen"))
+friends.sort()
+lucky_number.reverse()
+#lucky_number.sort()
+print(lucky_number)
+#friends.append("Creed")
+#friends.extend(lucky_number)
+#friends.insert(1, "Kelly")
+#friends.remove("Jim")
+#friends.clear()
+print(friends)
+friends2 = friends.copy()
+print(friends2)

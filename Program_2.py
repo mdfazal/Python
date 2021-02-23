@@ -1,4 +1,5 @@
-Money = input("Enter the amount of money: ")
+Mon = input("Enter the amount of money: ")
+Money = int(Mon)
 num_hun  = Money/100
 Money =  Money%100
 num_fif = Money/50
@@ -11,10 +12,10 @@ num_two = Money/2
 Money = Money%2
 num_one = Money/1
 Money = Money%1
-print("Number of Hundred notes :"+ num_hun)
-print("Number of Fifty notes :"+ num_fif)
-print("Number of Ten notes: "+num_ten)
-print("Number of five notes: "+ num_five)
-print("Number of two notes: "+ num_two)
-print("Number of one notes: "+ num_one)
+print("Number of Hundred notes : "+ str(int(num_hun)))
+print("Number of Fifty notes :"+ str(int(num_fif)))
+print("Number of Ten notes: "+ str(int(num_ten)))
+print("Number of five notes: "+ str(int(num_five)))
+print("Number of two notes: "+ str(int(num_two)))
+print("Number of one notes: "+ str(int(num_one)))
 
